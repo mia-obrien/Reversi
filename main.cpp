@@ -10,10 +10,11 @@ int main(int argc, char** argv) {
 
     Reversi game;    
 
-    do{          
+    while(game.isEnd()!=true )
+    {          
         game.play();
         cout << "\nNuber of living cell: " << Reversi::NumberOfLivingCell() << endl;            
-    }while(game.IsEnd()!=true );
+    }
    
     return 0;
 }
