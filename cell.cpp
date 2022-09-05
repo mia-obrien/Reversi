@@ -14,17 +14,17 @@ Cell::Cell(int X, int Y, char C)
     cellChar = C;
 }
 
-void Cell::Set_X(const int NewX)
+void Cell::setX(const int NewX)
 {
     x = NewX;
 }
 
-void Cell::Set_Y(const int NewY)
+void Cell::setY(const int NewY)
 {
     y = NewY;
 }
 
-void Cell::Set_Char(const char NewChar)
+void Cell::setChar(const char NewChar)
 {
     cellChar = NewChar;
 }
